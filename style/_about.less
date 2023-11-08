@@ -136,7 +136,7 @@
             grid-template-columns: 30% 69%;
             gap: 1%;
             width: 100%;
-            .margin-top(10)
+            .margin-top(10);
         }
     
         &-img {
@@ -158,6 +158,10 @@
     
         &-text {
             .font-size(11);
+            width: 100%;
+            text-align: justify;
+            .letter-spacing(-0.5);
+            text-align-last: justify;
         }
 
         & .first {
@@ -187,6 +191,7 @@
         }
         
         & .third  {
+            .margin-top(20);
             & .about-do-img {
                 .width(78);
                 .margin-top(-3);

@@ -216,6 +216,10 @@
 }
 .about-do-text {
   font-size: calc((11 / 16) * 1rem);
+  width: 100%;
+  text-align: justify;
+  letter-spacing: calc((-0.5 / 16) * 1rem);
+  text-align-last: justify;
 }
 .about-do .first .about-do-img {
   width: calc((107 / 16) * 1rem);
@@ -234,6 +238,9 @@
 .about-do .second > div:nth-child(2) {
   margin-left: calc((5 / 16) * 1rem);
   margin-top: calc((-13 / 16) * 1rem);
+}
+.about-do .third {
+  margin-top: calc((20 / 16) * 1rem);
 }
 .about-do .third .about-do-img {
   width: calc((78 / 16) * 1rem);
